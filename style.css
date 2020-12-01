@@ -1,0 +1,74 @@
+/* Color Scheme  CSS HEX 
+--tea-green: #e2f1afff;
+--flax: #e3d888ff;
+--ecru: #b4a56cff;
+--gold-fusion: #84714fff;
+--dark-liver-horses: #5a3a31ff;
+--bistre: #31231eff;\
+*/
+
+/* Fonts
+Main Emphasis:    font-family: 'Roboto', sans-serif;
+ 
+Secondary: font-family: 'Noto Sans JP', sans-serif;
+*/
+:root {
+  --main-bg-color: #e3d888ff;
+  --main-font: "Roboto", "Calibri", sans-serif;
+  --font-color: #31231ecc;
+  --quote-color: #e2f1afff;
+}
+
+body {
+  font-family: var(--main-font, "Calibri");
+  background-color: var(--main-bg-color, white);
+  color: var(--font-color, black);
+}
+
+/* Landing Page */
+
+.name-plate {
+  /* animation: fadeInAnimation;
+  animation-delay: 5s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; */
+  text-align: right;
+}
+
+/* @keyframes fadeInAnimation {
+  0% {
+    color: var(--main-bg-color);
+  }
+  100% {
+    color: var(--font-color);
+  }
+} */
+
+#name {
+  font-size: 5rem;
+}
+
+#job {
+  font-size: 1.5rem;
+}
+
+.landing-quote {
+  color: var(--quote-color, white);
+}
+
+#tolk-quote {
+  text-align: center;
+  font-size: 6rem;
+  margin: 0;
+  transition: font-size 1s;
+}
+
+#tolk-quote:hover {
+  font-size: 3rem;
+}
+
+#tolk-sig {
+  text-align: right;
+  font-size: 1.5rem;
+}
