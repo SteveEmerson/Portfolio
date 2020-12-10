@@ -1,6 +1,7 @@
 Footprint icon
 <div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
+CV Icon
+<div>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 Color Scheme Link and CSS:
 
 https://coolors.co/e2f1af-e3d888-b4a56c-84714f-5a3a31-31231e

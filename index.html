@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=\, initial-scale=1.0" />
     <title>S Emerson</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/footprints.png" />
 
     <link
       rel="stylesheet"
@@ -20,48 +21,250 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
-  <body>
-    <!-- Nav Bar -->
-
-    <!-- Landing Page -->
-
-    <div class="container landing">
-      <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-8 name-plate">
-          <div class="col-md" onload="nameTransition()">
-            <p id="name">Steve Emerson</p>
-            <p id="job">JavaScript and Python Development</p>
-          </div>
+  <body onload="landingFade">
+    <div class="container">
+      <!-- Nav Bar -->
+      <div class="row navbar" id="home">
+        <div class="col-md-4">
+          <a
+            href="http://www.linkedin.com/in/sbemerson"
+            target="_blank"
+            class="fa fa-linkedin"
+          ></a>
+          <a
+            href="https://github.com/SteveEmerson"
+            target="_blank"
+            class="fa fa-github"
+          ></a>
+          <a
+            href="./assets/SEmersonResume.pdf"
+            download="SteveEmerson"
+            class="fa fa-file-text"
+          ></a>
         </div>
-        <div class="col-md"></div>
-      </div>
-      <div class="row">
-        <div class="col-md landing-quote">
-          <p id="tolk-quote">"Not all who wander are lost."</p>
-          <p id="tolk-sig">--J R R Tolkien</p>
+        <div class="col-md-4 foots">
+          <img class="footprints-large" src="./assets/footprints.png" alt="" />
+        </div>
+        <div class="col-md-4 nav-links">
+          <a class="navbar-link" href="#landing">Home</a>
+          <a class="navbar-link" href="#about-me">About Me</a>
+          <a class="navbar-link" href="#projects">Projects</a>
+          <a class="navbar-link" href="#contact">Contact</a>
         </div>
       </div>
     </div>
 
-    <!-- About Me -->
+    <!-- Landing Page -->
+    <div class="row spacer" id="landing"></div>
+    <div class="row section-container" id="landing-container">
+      <div class="col-md-1"></div>
+      <div class="col-md-8 name-plate">
+        <p id="name">Steve Emerson</p>
+        <p id="job">JavaScript and Python Development</p>
+        <p id="tolk-quote">"Not all who wander are lost."</p>
+        <p id="tolk-sig">--J R R Tolkien</p>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
 
-    <div container></div>
+    <!-- About Me -->
+    <div class="row spacer" id="about-me"></div>
+    <div class="row section-container">
+      <div class="col-md-3">
+        <p class="section-name">About Me</p>
+        <img
+          id="profile-pic"
+          src="./assets/profile-pic-cropped.jpg"
+          alt="profile picture"
+        />
+      </div>
+      <div class="col-md-9">
+        <p class="section-content">
+          Problem solving. Data wrangling. Story telling. Learning.
+        </p>
+        <p class="section-content" id="bio">
+          Programming has been a hobby for some time. It could be a news story
+          or a conversation that gets me asking questions and thinking about how
+          I could code an answer. I taught math for several years and my
+          interest in programming lead to an opportunity to teach courses
+          JavaScript, Python and Java. I have always been a numbers guy and the
+          problems I like to solve often involve crunching the numbers. I love a
+          good story and I have a lot of fun trying to find the stories that
+          data can tell ... and its even better if that story includes a great
+          data visualization. I would like to continue to solve problems with
+          code as a full-time developer. I am currently working to complete the
+          JavaScript learning path at Elevenfifty Academy. To learn more see the
+          projects below and on Github or my profile on Linkedin.
+        </p>
+      </div>
+      <div class="col-md"></div>
+    </div>
 
     <!-- Projects -->
+    <div class="row spacer" id="projects"></div>
+    <div class="row section-container">
+      <div class="col-md-1">
+        <p class="section-name">Projects</p>
+      </div>
+      <div class="col-md proj-card-container">
+        <div class="row">
+          <div class="card port-img">
+            <a
+              href="https://steveemerson.github.io/CSS-Creature/"
+              target="_blank"
+            >
+              <img
+                src="/assets/Project-Thumbnail/CreatureThumbnail.PNG"
+                class="card-img-top img-thumbnail"
+                alt="CSS Creature"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text">CSS Creature</p>
+            </div>
+          </div>
+          <div class="card port-img">
+            <a
+              href="https://steveemerson.github.io/Static-Layout/"
+              target="_blank"
+            >
+              <img
+                src="/assets/Project-Thumbnail/StaticLayoutThumbnail.PNG"
+                class="card-img-top img-thumbnail"
+                alt="Star Wars Static"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text">Static Layout - Star Wars</p>
+            </div>
+          </div>
+          <div class="card port-img">
+            <a
+              href="https://steveemerson.github.io/NY-Times-Article-Search/"
+              target="_blank"
+            >
+              <img
+                src="/assets/Project-Thumbnail/NYTThumbnail.PNG"
+                class="card-img-top img-thumbnail"
+                alt="NY Times API"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text">NY Times Article Search</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card port-img">
+            <a
+              href="https://steveemerson.github.io/Studio-Ghibli-Data/"
+              target="_blank"
+              ><img
+                src="./assets/Project-Thumbnail/GhibliThumbnail.PNG"
+                class="card-img-top img-thumbnail"
+                alt="API Peoject"
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text">Studio Ghibli Data</p>
+            </div>
+          </div>
+          <div class="card port-img">
+            <a href="#" target="_blank">
+              <img
+                src="/assets/Project-Thumbnail/OtherThumbnail.PNG"
+                class="card-img-top img-thumbnail"
+                alt="..."
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text">Some other project</p>
+            </div>
+          </div>
+          <div class="card port-img">
+            <a href="#" target="_blank">
+              <img
+                src="/assets/Project-Thumbnail/OtherThumbnail.PNG"
+                class="card-img-top img-thumbnail"
+                alt="..."
+              />
+            </a>
+            <div class="card-body">
+              <p class="card-text">Some other project</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <div container></div>
+    <!-- Contact -->
+    <div class="row spacer"></div>
+    <div class="row section-container" id="contact">
+      <div class="col-md-2">
+        <p class="section-name">Contact</p>
+      </div>
+      <div class="col-md">
+        <form
+          class="section-content"
+          action="https://formspree.io/f/mleopjle"
+          method="POST"
+        >
+          <div class="row">
+            <div class="col-md-5">
+              <label>
+                Name
+                <br />
+                <input type="text" name="name" required="" />
+              </label>
+              <label>
+                Email
+                <br />
+                <input type="text" name="_replyto" required="" />
+              </label>
+              <label>
+                Subject
+                <br />
+                <input type="text" name="subject" required="" />
+              </label>
+            </div>
+            <div class="col-md-5 message-container">
+              <label id="message-label">
+                Message
+                <br />
+                <textarea name="message" id="message-text"></textarea>
+              </label>
+              <button type="submit" id="contact-button">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
 
     <!-- Footer -->
+    <div class="row" id="footer">
+      <div class="col-md">
+        <p id="copyright">&copy Steve Emerson 2020</p>
+      </div>
+      <div id="icon-attribution">
+        Icons made by
+        <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26"
+          >Icongeek26</a
+        >
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
+      </div>
+    </div>
 
-    <script type="text/JavaScript">
-
-      functions nameTransition(){
-            $(#name).fadeIn();
-      }
-    </script>
+    <script src="./portfolio.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
