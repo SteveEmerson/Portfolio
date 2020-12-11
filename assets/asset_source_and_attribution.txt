@@ -1,8 +1,8 @@
 Footprint icon
 <div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 CV Icon
-<div>Icons made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-Color Scheme Link and CSS:
+Background Photo
+<span>Photo by <a href="https://unsplash.com/@capturelight?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">John Thomas</a> on <a href="https://unsplash.com/s/photos/woods-path?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 https://coolors.co/e2f1af-e3d888-b4a56c-84714f-5a3a31-31231e
 

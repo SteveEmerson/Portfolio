@@ -22,10 +22,10 @@
       rel="stylesheet"
     />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <script
+      src="https://kit.fontawesome.com/6792c2c559.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body onload="landingFade">
@@ -65,13 +65,13 @@
     <div class="row spacer" id="landing"></div>
     <div class="row section-container" id="landing-container">
       <div class="col-md-1"></div>
-      <div class="col-md-8 name-plate">
-        <p id="name">Steve Emerson</p>
-        <p id="job">JavaScript and Python Development</p>
-        <p id="tolk-quote">"Not all who wander are lost."</p>
-        <p id="tolk-sig">--J R R Tolkien</p>
+      <div class="col-md-10">
+        <div class="name-plate">
+          <p id="name">Steve Emerson</p>
+          <p id="job">JavaScript and Python Development</p>
+        </div>
       </div>
-      <div class="col-md-3"></div>
+      <div class="col-md-1"></div>
     </div>
 
     <!-- About Me -->
@@ -87,22 +87,25 @@
       </div>
       <div class="col-md-9">
         <p class="section-content">
-          Problem solving. Data wrangling. Story telling. Learning.
+          Problem solving | Data wrangling | Story telling | Learning
         </p>
         <p class="section-content" id="bio">
           Programming has been a hobby for some time. It could be a news story
           or a conversation that gets me asking questions and thinking about how
           I could code an answer. I taught math for several years and my
           interest in programming lead to an opportunity to teach courses
-          JavaScript, Python and Java. I have always been a numbers guy and the
-          problems I like to solve often involve crunching the numbers. I love a
-          good story and I have a lot of fun trying to find the stories that
-          data can tell ... and its even better if that story includes a great
-          data visualization. I would like to continue to solve problems with
-          code as a full-time developer. I am currently working to complete the
-          JavaScript learning path at Elevenfifty Academy. To learn more see the
-          projects below and on Github or my profile on Linkedin.
+          JavaScript, Python, Java and Cybersecurity. I love a good story and I
+          have a lot of fun trying to find the stories that data can tell ...
+          and its even better if that story includes a great data visualization.
+          Currently I am working to complete the JavaScript learning path at
+          Elevenfifty Academy. Find out more by viewing the projects and on
+          Github or my profile on Linkedin.
         </p>
+        <div class="knowledge-icons">
+          <i class="fab fa-js-square"></i>
+          <i class="fab fa-bootstrap"></i>
+          <i class="fab fa-python"></i>
+        </div>
       </div>
       <div class="col-md"></div>
     </div>
@@ -185,7 +188,7 @@
               />
             </a>
             <div class="card-body">
-              <p class="card-text">Some other project</p>
+              <p class="card-text">Blue Badge TBA</p>
             </div>
           </div>
           <div class="card port-img">
@@ -197,7 +200,7 @@
               />
             </a>
             <div class="card-body">
-              <p class="card-text">Some other project</p>
+              <p class="card-text">Red Badge TBA</p>
             </div>
           </div>
         </div>
@@ -249,10 +252,25 @@
 
     <!-- Footer -->
     <div class="row" id="footer">
-      <div class="col-md">
-        <p id="copyright">&copy Steve Emerson 2020</p>
+      <div class="col-md-4 footer-content">
+        <span
+          >Photo by
+          <a
+            href="https://unsplash.com/@capturelight?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+            >John Thomas</a
+          >
+          on
+          <a
+            href="https://unsplash.com/s/photos/woods-path?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+            >Unsplash</a
+          ></span
+        >
       </div>
-      <div id="icon-attribution">
+      <div class="col-md-4 footer-content">
+        <span class="copyright">&copy Steve Emerson 2020 &nbsp</span>
+        <span class="copyright">"Not all who wander are lost."</span>
+      </div>
+      <div class="col-md-4 footer-content" id="icon-attribution">
         Icons made by
         <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26"
           >Icongeek26</a
