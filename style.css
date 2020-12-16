@@ -170,6 +170,10 @@ body {
   font-size: 1rem;
 }
 
+.sm-link {
+  color: var(--font-color);
+}
+
 .knowledge-icons {
   position: relative;
   left: 10%;
@@ -200,6 +204,10 @@ body {
 
 .card-text {
   font-size: 0.8rem;
+}
+
+.img-thumbnail {
+  width: 280px;
 }
 
 /* Contact */
