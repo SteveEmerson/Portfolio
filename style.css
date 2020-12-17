@@ -25,7 +25,7 @@ Secondary: font-family: 'Noto Sans JP', sans-serif;
 body {
   font-family: var(--main-font, "Calibri");
   background-color: var(--main-bg-color, white);
-  color: var(--font-color, black);
+  /* color: var(--font-color, black); */
 }
 
 .section-name {
@@ -57,9 +57,11 @@ body {
   border-top: 2px solid var(--font-color);
   margin-bottom: 0px;
   position: fixed;
+  top: -50px;
   left: 10%;
   z-index: 1;
   width: 80%;
+  transition: top 0.3s;
 }
 .navbar {
   color: var(--font-color);
@@ -107,52 +109,90 @@ body {
 
 /* Landing Page */
 
-@keyframes fadeInAnimation {
-  0% {
-    color: var(--main-bg-color);
-  }
-  100% {
-    color: var(--font-color);
-  }
-}
 .spacer {
-  height: 50px;
-}
-#landing {
-  margin-bottom: 20px;
+  height: 0px;
 }
 
 #landing-container {
-  height: 90vh;
+  height: 100vh;
   background-image: url("./assets/john-thomas-sEpzK_EeIcs-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(1);
 }
 
-.name-plate {
-  /* animation: fadeInAnimation;
-  animation-delay: 5s;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards; */
+@keyframes fadeOutAnimation {
+  0% {
+    color: rgba(255, 255, 255);
+  }
+  50% {
+    color: rgba(255, 255, 255);
+  }
+  100% {
+    color: rgba(255, 255, 255, 0);
+  }
+}
 
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: relative;
-  top: 35%;
+@keyframes fadeInAnimation {
+  0% {
+    color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    color: rgba(255, 255, 255);
+  }
+}
+
+.name-plate {
+  width: 80%;
+  margin: auto;
+  /* color: rgba(255, 255, 255); */
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 70%;
+  margin-top: 10%;
+}
+
+#quote-div {
+  height: 70%;
+  padding-top: 12%;
+
+  animation: fadeOutAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.quote {
+  font-family: "Piazzolla", serif;
+  font-size: 4rem;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+#attribution {
+  font-size: 1rem;
+  text-align: right;
+  padding-right: 10%;
+}
+
+#name-div {
+  height: 70%;
+  padding-top: 10%;
+  animation: fadeInAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 #name {
   font-size: 6rem;
   margin-bottom: 0;
-  margin-left: 5%;
+  margin-left: 15%;
 }
 
 #job {
   font-size: 1.5rem;
-  margin-left: 5%;
-  padding-bottom: 5%;
+  margin-left: 15%;
+  /* padding-bottom: 5%; */
 }
 
 /* About Me */

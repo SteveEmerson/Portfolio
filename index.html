@@ -22,13 +22,19 @@
       rel="stylesheet"
     />
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
+
     <script
       src="https://kit.fontawesome.com/6792c2c559.js"
       crossorigin="anonymous"
     ></script>
   </head>
 
-  <body onload="landingFade">
+  <body>
     <div class="container">
       <!-- Nav Bar -->
       <div class="row navbar" id="home">
@@ -47,6 +53,7 @@
             href="./assets/SEmersonResume.pdf"
             download="SteveEmerson"
             class="fa fa-file-text"
+            target="_blank"
           ></a>
         </div>
         <div class="col-md-4 foots">
@@ -64,14 +71,14 @@
     <!-- Landing Page -->
     <div class="row spacer" id="landing"></div>
     <div class="row section-container" id="landing-container">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
+      <div class="col-md-12">
         <div class="name-plate">
-          <p id="name">Steve Emerson</p>
-          <p id="job">JavaScript and Python Development</p>
+          <div id="quote-div">
+            <p class="quote">"Not all those who wander are lost."</p>
+            <p class="quote" id="attribution">JRR Tolkien</p>
+          </div>
         </div>
       </div>
-      <div class="col-md-1"></div>
     </div>
 
     <!-- About Me -->
