@@ -121,13 +121,18 @@ body {
   filter: grayscale(1);
 }
 
-@keyframes fadeOutAnimation {
+@keyframes fadeInOutAnimation {
   0% {
+    color: rgba(255, 255, 255, 0);
+  }
+  40% {
     color: rgba(255, 255, 255);
   }
-  50% {
+
+  60% {
     color: rgba(255, 255, 255);
   }
+
   100% {
     color: rgba(255, 255, 255, 0);
   }
@@ -155,8 +160,8 @@ body {
   height: 70%;
   padding-top: 12%;
 
-  animation: fadeOutAnimation;
-  animation-duration: 4s;
+  animation: fadeInOutAnimation;
+  animation-duration: 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
