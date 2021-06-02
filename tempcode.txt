@@ -1,0 +1,45 @@
+<div class="container">
+      <!-- Nav Bar -->
+      <div class="row navbar" id="home">
+        <div class="col-md-4">
+          <a
+            href="http://www.linkedin.com/in/sbemerson"
+            target="_blank"
+            class="fa fa-linkedin"
+          ></a>
+          <a
+            href="https://github.com/SteveEmerson"
+            target="_blank"
+            class="fa fa-github"
+          ></a>
+          <a
+            href="./assets/SEmersonResume.pdf"
+            download="SteveEmerson"
+            class="fa fa-file-text"
+            target="_blank"
+          ></a>
+        </div>
+        <div class="col-md-4 foots">
+          <img class="footprints-large" src="./assets/footprints.png" alt="" />
+        </div>
+        <div class="col-md-4 nav-links">
+          <a class="navbar-link" href="#landing">Home</a>
+          <a class="navbar-link" href="#about-me">About Me</a>
+          <a class="navbar-link" href="#projects">Projects</a>
+          <a class="navbar-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+
+
+    #home {
+  background-color: white;
+  border-top: 2px solid var(--font-color);
+  margin-bottom: 0px;
+  position: fixed;
+  top: 0px;
+  /* left: 10%; */
+  z-index: 1;
+  width: 100%;
+  transition: top 0.3s;
+}

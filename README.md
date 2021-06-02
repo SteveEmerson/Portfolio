@@ -1,6 +1,7 @@
-# Portfolio
+# Steve Emerson
 
+## Web Development Portfolio
 
-### Steve Emerson
+### HTML, CSS, Bootstrap
 
-Elevenfifty Academy Portfolio Project
+### See my portfolio online [here](https://steveemerson.github.io/Portfolio/ "Emerson Portfolio")
