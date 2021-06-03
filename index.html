@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=\, initial-scale=1.0" />
-    <title>S Emerson</title>
+    <title>S Emerson Portfolio</title>
     <link rel="shortcut icon" type="image/png" href="./assets/footprints.png" />
 
     <link
@@ -28,6 +28,12 @@
       rel="stylesheet"
     />
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
     <script
       src="https://kit.fontawesome.com/6792c2c559.js"
       crossorigin="anonymous"
@@ -35,7 +41,10 @@
   </head>
 
   <body>
-    <div class="container-fluid">
+    <a href="#top">
+      <img class="footprints-large" src="./assets/footprints.png" alt="" />
+    </a>
+    <div class="container-fluid" id="top">
       <!-- Landing Page -->
       <div class="row section-container" id="landing-container">
         <div class="col-md-12" id="splash-color">
@@ -46,52 +55,84 @@
       <!-- About Me -->
       <div class="row spacer" id="about-me"></div>
       <div class="row section-container">
-        <div class="col-md-3">
-          <p class="section-name">About Me</p>
-          <img
-            id="profile-pic"
-            src="./assets/profile-pic-cropped.jpg"
-            alt="profile picture"
-          />
-        </div>
-        <div class="col-md-9">
-          <p class="section-content">
-            Problem solving | Data wrangling | Story telling | Learning
-          </p>
-          <p class="section-content" id="bio">
-            Programming has been a hobby for some time. It could be a news story
-            or a conversation that gets me asking questions and thinking about
-            how I could code an answer. I taught math for several years and my
-            interest in programming led to an opportunity to teach courses in
-            JavaScript, Python, Java and Cybersecurity. I love a good story and
-            I have a lot of fun trying to find the stories that data can tell
-            ... and its even better if that story includes a great data
-            visualization. Currently I am working to complete the JavaScript
-            learning path at Elevenfifty Academy. Find out more by viewing the
-            projects and on
-            <a href="https://github.com/SteveEmerson" class="sm-link">Github</a>
-            or my profile on
-            <a href="https://www.linkedin.com/in/sbemerson/" class="sm-link"
-              >Linkedin</a
-            >.
-          </p>
-          <div class="knowledge-icons">
-            <i class="fab fa-js-square"></i>
-            <i class="fab fa-bootstrap"></i>
-            <i class="fab fa-python"></i>
+        <div class="row section-header">
+          <div class="col-md-12">
+            <p class="section-name">About Me</p>
           </div>
         </div>
-        <div class="col-md"></div>
+        <div class="row section-content">
+          <div class="col-md-8">
+            <div id="bio">
+              <!-- <p style="font-size: larger; font-style: italic">
+                Always learning ... always finding a story to tell.
+              </p> -->
+              <p>
+                I am a
+                <span style="font-weight: bold">full-stack web developer</span>
+                and I love solving problems to bring creative applications to
+                life. I recently completed the ElevenFifty Academy web
+                devlopment boot camp where I used PostgreSQL, React, TypeScript,
+                Express, and Node to create single-page web applications.
+              </p>
+              <p>
+                I
+                <span style="font-weight: bold">teach programming</span>
+                including courses in JavaScript, Python, and Java. I am CompTIA
+                Security+ certified and teach an introductory Cybersecurity
+                course.
+              </p>
+              <p>
+                For hobby projects I enjoy using
+                <span style="font-weight: bold"
+                  >Python to explore mathematics and analyze data</span
+                >. I love a visualization that tells a story.
+              </p>
+              <p>
+                Find out more by viewing the
+                <a href="#projects" class="sm-link">projects</a> below. Also
+                check out my code on
+                <a href="https://github.com/SteveEmerson" class="sm-link"
+                  >Github</a
+                >
+                and my profile on<a
+                  href="https://www.linkedin.com/in/sbemerson/"
+                  class="sm-link"
+                >
+                  LinkedIn </a
+                >.
+              </p>
+            </div>
+            <!-- <p id="bio-blips">
+              Problem solving | Story Telling | Living to Learn
+            </p> -->
+          </div>
+          <div class="col-md-4">
+            <img
+              id="profile-pic"
+              src="./assets/profile-pic-cropped.jpg"
+              alt="profile picture"
+            />
+            <div class="knowledge-icons">
+              <i class="fab fa-js-square"></i>
+              <i class="fab fa-bootstrap"></i>
+              <i class="fab fa-python"></i>
+              <i class="fab fa-react"></i>
+              <i class="fab fa-node-js"></i>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Projects -->
       <div class="row spacer" id="projects"></div>
-      <div class="row section-container">
-        <div class="col-md-1">
-          <p class="section-name">Projects</p>
+      <div class="row section-container-dark">
+        <div class="row section-header">
+          <div class="col-md-12">
+            <p class="section-name-light">Projects</p>
+          </div>
         </div>
-        <div class="col-md proj-card-container">
-          <div class="row">
+        <div class="row section-content-light">
+          <div class="col proj-card-container">
             <div class="card port-img">
               <a
                 href="https://steveemerson.github.io/CSS-Creature/"
@@ -137,8 +178,6 @@
                 <p class="card-text">NY Times Article Search</p>
               </div>
             </div>
-          </div>
-          <div class="row">
             <div class="card port-img">
               <a href="https://studioghiblifilmdata.web.app/" target="_blank"
                 ><img
