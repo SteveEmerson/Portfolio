@@ -402,11 +402,9 @@ input {
 #footer {
   background-color: var(--font-color-tansparent);
   /* border-top: 2px solid var(--font-color); */
-  z-index: 0;
-  width: 80%;
-  position: relative;
-  left: 10%;
+  width: 98vw;
   font-size: 0.8rem;
+  color: darkgrey;
 }
 
 .footer-content {
