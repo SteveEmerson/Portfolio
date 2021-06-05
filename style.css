@@ -321,9 +321,9 @@ body {
   margin-top: 5%;
 }
 
-.sm-link {
-  /* color: var(--font-color); */
-}
+/* .sm-link {
+  color: var(--font-color);
+} */
 
 .knowledge-icons {
   /* position: relative;
@@ -395,7 +395,6 @@ input {
 #contact-button {
   font-size: 0.8rem;
   color: white;
-  background-color: var(--font-color);
   max-width: 60px;
 }
 

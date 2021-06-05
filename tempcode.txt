@@ -43,3 +43,87 @@
   width: 100%;
   transition: top 0.3s;
 }
+
+
+
+<div class="card port-img">
+              <a
+                href="https://steveemerson.github.io/CSS-Creature/"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Project-Thumbnail/CreatureThumbnail.PNG"
+                  class="card-img-top img-thumbnail"
+                  alt="CSS Creature"
+                />
+              </a>
+              <div class="card-body">
+                <p class="card-text">CSS Creature</p>
+              </div>
+            </div>
+            <div class="card port-img">
+              <a
+                href="https://steveemerson.github.io/Static-Layout/"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Project-Thumbnail/StaticLayoutThumbnail.PNG"
+                  class="card-img-top img-thumbnail"
+                  alt="Star Wars Static"
+                />
+              </a>
+              <div class="card-body">
+                <p class="card-text">Static Layout - Star Wars</p>
+              </div>
+            </div>
+            <div class="card port-img">
+              <a
+                href="https://steveemerson.github.io/NY-Times-Archive-Search/"
+                target="_blank"
+              >
+                <img
+                  src="./assets/Project-Thumbnail/NYTThumbnail.PNG"
+                  class="card-img-top img-thumbnail"
+                  alt="NY Times API"
+                />
+              </a>
+              <div class="card-body">
+                <p class="card-text">NY Times Article Search</p>
+              </div>
+            </div>
+            <div class="card port-img">
+              <a href="https://studioghiblifilmdata.web.app/" target="_blank"
+                ><img
+                  src="./assets/Project-Thumbnail/GhibliThumbnail.PNG"
+                  class="card-img-top img-thumbnail"
+                  alt="API Peoject"
+                />
+              </a>
+              <div class="card-body">
+                <p class="card-text">Studio Ghibli Data</p>
+              </div>
+            </div>
+            <div class="card port-img">
+              <a href="#" target="_blank">
+                <img
+                  src="./assets/Project-Thumbnail/OtherThumbnail.PNG"
+                  class="card-img-top img-thumbnail"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body">
+                <p class="card-text">Blue Badge TBA</p>
+              </div>
+            </div>
+            <div class="card port-img">
+              <a href="#" target="_blank">
+                <img
+                  src="./assets/Project-Thumbnail/OtherThumbnail.PNG"
+                  class="card-img-top img-thumbnail"
+                  alt="..."
+                />
+              </a>
+              <div class="card-body">
+                <p class="card-text">Red Badge TBA</p>
+              </div>
+            </div>
